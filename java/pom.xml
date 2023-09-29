@@ -1,6 +1,25 @@
 <project>
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.simonnordberg</groupId>
-  <artifactId>learn-java</artifactId>
-  <version>LATEST</version>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.simonnordberg</groupId>
+    <artifactId>learn-java</artifactId>
+    <version>LATEST</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.10</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.13</version>
+        </dependency>
+    </dependencies>
 </project>
