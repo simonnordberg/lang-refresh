@@ -11,7 +11,7 @@ import is done separately once the images have already been
 [imported and indexed](https://docs.photoprism.app/developer-guide/media/import/).
 
 The application was chosen because 1) I needed to get the job done, and 2) it is reasonably trivial while still
-requiring a reasonably [diverse set of features](#areas-of-interest).
+requiring a reasonably [diverse set of features](#features-and-considerations).
 
 # Application flow
 
