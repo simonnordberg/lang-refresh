@@ -8,7 +8,9 @@ module AlbumImport
 
     def import_albums_from_directory(dir)
       return false unless Dir.exist? dir
-      Dir.foreach(dir) { |album_dir| import_album_from_directory(File.join(dir, album_dir)) }
+      Dir.foreach(dir) do |album_dir|
+        import_album_from_directory(File.join(dir, album_dir))
+      end
     end
 
     def import_album_from_directory(album_path, metadata_filename = "metadata.json")
