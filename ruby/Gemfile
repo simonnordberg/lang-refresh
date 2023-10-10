@@ -8,4 +8,5 @@ gem "minitest", "~> 5.0", group: [:development, :test]
 gem "rake", "~> 13.0", group: [:development, :test]
 gem "standard", require: false, group: [:development, :test]
 gem "rubocop-minitest", require: false, group: [:development, :test]
+gem "minitest-stub_any_instance", require: false, group: [:development, :test]
 gem "httparty"

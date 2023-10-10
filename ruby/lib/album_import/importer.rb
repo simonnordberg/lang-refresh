@@ -53,7 +53,7 @@ module AlbumImport
 
     def create_album(metadata)
       @client.create_album(metadata["title"],
-        metadata["description"])
+                           metadata["description"])
     end
   end
 end

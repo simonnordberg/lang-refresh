@@ -32,6 +32,7 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.5)
     minitest (5.20.0)
+    minitest-stub_any_instance (1.0.3)
     multi_xml (0.6.0)
     nenv (0.3.0)
     notiffany (0.1.3)
@@ -96,6 +97,7 @@ DEPENDENCIES
   guard-minitest
   httparty
   minitest (~> 5.0)
+  minitest-stub_any_instance
   rake (~> 13.0)
   rubocop-minitest
   standard
