@@ -6,7 +6,7 @@ module AlbumImport
   class TestImporter < Minitest::Test
     def test_import_photo_album
       album_dir = File.join(File.dirname(__FILE__), "../fixtures/albums/album1")
-      photos = %w[photo1.jpg photo2.jpg]
+      photos = %w[photo1.jpg photo2.jpg].sort
 
       mock_client = Minitest::Mock.new
       importer = Importer.new(mock_client)

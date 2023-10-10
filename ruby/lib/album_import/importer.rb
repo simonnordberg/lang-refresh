@@ -8,7 +8,7 @@ module AlbumImport
 
     def import_albums_from_directory(dir)
       return false unless Dir.exist? dir
-      Dir.foreach(dir) do |album_dir|
+      Dir.entries(dir).sort.each do |album_dir|
         import_album_from_directory(File.join(dir, album_dir))
       end
     end
@@ -27,7 +27,7 @@ module AlbumImport
     end
 
     def import_album_images(album_path, album, suffixes = %w[.jpg .jpeg .png])
-      Dir.foreach(album_path) do |filename|
+      Dir.entries(album_path).sort.each do |filename|
         image = File.join(album_path, filename)
         next unless File.exist? image
         next unless suffixes.include? File.extname(image)
