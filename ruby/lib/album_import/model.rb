@@ -6,6 +6,7 @@ module AlbumImport
       new(dict["UID"])
     end
   end
+
   Photo = Struct.new(:uid) do
     def self.from_dict(dict)
       new(dict["PhotoUID"])

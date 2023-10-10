@@ -13,6 +13,8 @@ module AlbumImport
       exit 1
     end
 
+    private
+
     def run_import(hostname, username, password, directory)
       client = Client.new(hostname)
 
