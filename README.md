@@ -45,9 +45,9 @@ This list will be modified as get inspiration for what I want to pursue next.
 | Language |   Status    |
 |:--------:|:-----------:|
 |  Python  |     v1      |
-|   Rust   | Not started |
+|   Rust   |     v0.5    |
 |   Java   | Not started |
-|   Ruby   | Not started |
+|   Ruby   |     v1      |
 |    Go    | Not started |
 |  Elixir  | Not started |
 | Haskell  | Not started |
